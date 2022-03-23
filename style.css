@@ -1,0 +1,61 @@
+@import url("https://fonts.google.com/specimen/Playfair+Display+SC");
+
+body {
+  background: #FEFBF3;
+  display: grid;
+  grid-template-columns: 1000px;
+  justify-content: center;
+}
+
+@media (max-width: 1030px) {
+  body {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  #image {
+    width: 100%;
+  }
+}
+
+h1,h2 {
+  background: #CEAB93;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Playfair Display SC;
+  }
+
+#tribute-info {
+  grid-area: info;
+  border-radius: 10px;
+  text-align: justify;
+  padding: 10px;
+  background: #E3CAA5;
+  line-height: 22px;
+  font-size: 17px;
+}
+
+ul {
+  background: #E3CAA5;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 80px;
+  padding-right: 80px;
+  line-height: 25px;
+  font-size: 16px;
+}
+
+#img-div {
+  display: grid;
+  justify-content: center;
+}
+
+#image {
+  max-width: 600px;
+}
+
+.biblio {
+  color: gray;
+}
